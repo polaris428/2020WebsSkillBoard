@@ -10,6 +10,12 @@
 
     <script type="text/javascript" src="jQuery/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <style>
+    
+    
+       
+    
+    </style>
 
 
 </head>
@@ -203,41 +209,87 @@
             <span class="sr-only">다음</span>
         </a>
     </div>
+    <div style="display: flex">
+        
+        
+    </div>
 
-    <h1>CSS를 이용하여 Tab 만들기</h1>
+
 
     <div class="main">
-        <input id="tab1" type="radio" name="tabs" checked>
+        <input id="notice" type="radio" name="tabs" checked>
         <!--디폴트 메뉴-->
-        <label for="tab1">tab menu1</label>
+        <label for="notice">공지사항</label>
 
-        <input id="tab2" type="radio" name="tabs">
-        <label for="tab2">tab menu2</label>
+        <input id="press-release" type="radio" name="tabs">
+        <label for="press-release">보도자료</label>
 
         <input id="tab3" type="radio" name="tabs">
-        <label for="tab3">tab menu3</label>
+        <label for="tab3">채용정보</label>
 
         <input id="tab4" type="radio" name="tabs">
-        <label for="tab4">tab menu4</label>
+        <label for="tab4">입찰 정보</label>
 
-        <section id="content1">
-            <li>
-                <p>dfadfs</p>
-                <p>
-                    sdadsd
-                </p>
-            </li>
+        <section class="tab-section" id="notice">
+            <ul>
+                <li style="display: flex;">
+                      <div style="width: 80%" >
+                          <spend>『국립문화재연구소 연구윤리에 관한 규정』 전부개정(안) 행정예고</spend>
+                      </div>
+                      
+                      <div  style="float: right" >
+                          <p >2020-05-06</p>
+                      </div>
+                </li>
+                <li style="display: flex;">
+                      <div style="width: 80%" >
+                          <spend>2020년 지역문화유산 활용 전문인력 교육(야행) 안내</spend>
+                      </div>
+                      
+                      <div  style="float: right" >
+                          <p > 2020-05-07</p>
+                      </div>
+                </li>
+                <li style="display: flex;">
+                      <div style="width: 80%" >
+                          <spend>2020년도 상반기 모범공무원 정부포상 추천후보자 공개검증 안내</spend>
+                      </div>
+                      
+                      <div  style="float: right" >
+                          <p>2020-05-04</p>
+                      </div>
+                </li>
+                <li style="display: flex;">
+                      <div style="width: 80%" >
+                          <spend> 국립문화재연구소 보존과학연구실 공무직 채용 공고</spend>
+                      </div>
+                      
+                      <div  style="float: right" >
+                          <p >2020-05-01</p>
+                      </div>
+                </li>
+                <li style="display: flex;">
+                      <div style="width: 80%" >
+                          <spend>2020년도 『청년 유네스코 세계유산 지킴이』모집 안내</spend>
+                      </div>
+                      
+                      <div  style="float: right" >
+                          <p>2020-04-27</p>
+                      </div>
+                </li>
+               
+            </ul>
         </section>
 
-        <section id="content2">
+        <section id="press-release" class="tab-section">
             <p>tab menu2의 내용</p>
         </section>
 
-        <section id="content3">
+        <section id="content3" class="tab-section">
             <p>tab menu3의 내용</p>
         </section>
 
-        <section id="content4">
+        <section id="content4" class="tab-section">
             <p>tab menu4의 내용</p>
         </section>
 

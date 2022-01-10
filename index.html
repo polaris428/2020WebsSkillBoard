@@ -6,6 +6,10 @@
     <title>Document</title>
     <link href="main.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/fontawesome-free-5.13.0-web/css/all.css" crossorigin="anonymous">
+     <link rel="stylesheet" href="bootstrap/bootstrap-4.5.0-dist/css/bootstrap.css" >
+       
+    <script type="text/javascript" src="jQuery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -17,17 +21,17 @@
         <a href="#">문의하기</a>
         <a href="#">언어</a>
     </div>
-    <div style="display: flex">
+    <div style="display: flex;width: 100%">
         <div>
             <img src="img/Left%20and%20right%20of%20the%20Ministry%20of%20Culture,%20Sports%20and%20Tourism.jpg" class="logo" alt="문화체육관광부 상단 로고" title="메인으로 돌아가기 ">
         </div>
-        <div style="">
-            <div id="menu" style="width: 900px">
+        <div style="width: 100%">
+            <div id="menu">
 
                 <ul class="main1">
 
                     <li><a href="#">무형문화재관리원</a>
-                       
+
 
                         <ul class="main2">
 
@@ -141,6 +145,21 @@
 
                     </li>
 
+                    <li><a href="#">데이터 공개</a>
+
+                        <ul class="main2">
+
+                            <li><a href="#">무형문화재 현황</a></li>
+
+                            <li><a href="#">월간/년간 공연현황</a></li>
+
+                            <li><a href="#">공방/공예품/전수교육관 사진 자료</a></li>
+
+                        </ul>
+
+                    </li>
+
+
                 </ul>
 
 
@@ -151,13 +170,33 @@
 
 
 
-        <input placeholder="검색어를 입력해주세요">
-        <div class="icon">
-            <i class="fas fa-search"></i>
-        </div>
-
     </div>
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/first.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/second.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/first.png" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">이전</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">다음</span>
+        </a>
+    </div>
 
 
 

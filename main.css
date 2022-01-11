@@ -433,3 +433,13 @@ footer span {
     font-weight: bold;
     margin-bottom: 8px;
 }
+.card h5{
+    padding: 10px
+}
+.card-body div{
+    display: flex;
+    text-align: center
+}
+.card-body p{
+   margin-top:  auto;margin-bottom: auto
+}

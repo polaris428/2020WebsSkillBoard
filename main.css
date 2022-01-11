@@ -279,6 +279,9 @@ input:checked + label {
     display: block;
 }
 
+.tab-section p{
+    color: gray;
+}
 html {
     position: relative;
     min-height: 100%;

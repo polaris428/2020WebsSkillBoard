@@ -15,6 +15,13 @@
     /* 링크의 색상 제거 */
     margin: 5px;
     color: gray;
+    
+}
+
+
+
+a:hover {
+  color : red;
 }
 
 
